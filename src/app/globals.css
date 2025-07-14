@@ -60,3 +60,104 @@ body {
   font-weight: 700;
   color: #2e7d32;
 }
+
+/* Planes - Grid y Cards */
+.planes-grid {
+  display: flex;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.plan-card {
+  background: #fff;
+  border: 3px solid #000;
+  border-radius: 12px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.plan-header {
+  padding: 25px 20px;
+  text-align: center;
+  border-bottom: 2px solid #000;
+}
+
+.plan-nombre {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.plan-precio {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 5px;
+}
+
+.precio {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.periodo {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Features */
+.plan-features {
+  padding: 25px 20px;
+  flex-grow: 1;
+}
+
+.plan-features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.plan-features li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.checkmark {
+  color: #28a745;
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+/* Botones Reutilizables */
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  border: 2px solid #000;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-suscribir {
+  width: 100%;
+  padding: 15px;
+  border-top: 2px solid #000;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 0;
+  font-size: 1.1rem;
+}
+
+.btn-volver {
+  background: #f8f9fa;
+}
+
+.btn-planes {
+  background: #FFD700;
+  font-size: 1.1rem;
+}

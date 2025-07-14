@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Home() {
   // Array de series o películas
   const catalog = [
@@ -38,6 +40,11 @@ export default function Home() {
       {/* Encabezado principal */}
       <div className="card">
         <h1 className="title">NUTFLIX</h1>
+        <div style={{ textAlign: 'center', marginTop: '15px' }}>
+          <Link href="/planes" className="btn btn-planes">
+            Ver Planes de Suscripción
+          </Link>
+        </div>
       </div>
 
       {/* Grid de películas/series */}
